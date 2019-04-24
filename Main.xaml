@@ -56,7 +56,7 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:OpenBrowser UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser and go to RPA Challenge" Hidden="False" sap:VirtualizedContainerService.HintSize="567.2,3147.2" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" NewSession="False" Private="False" Url="www.rpachallenge.com">
+    <ui:OpenBrowser UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser and go to RPA Challenge" Hidden="False" sap:VirtualizedContainerService.HintSize="567.2,3147.2" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" NewSession="True" Private="False" Url="www.rpachallenge.com">
       <ui:OpenBrowser.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -159,37 +159,37 @@
                                             </sap:WorkflowViewStateService.ViewState>
                                             <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Typing First Name" EmptyField="True" sap:VirtualizedContainerService.HintSize="314.4,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_1" SendWindowMessages="False" SimulateType="True" Text="[row.Item(&quot;First Name&quot;).ToString]">
                                               <ui:TypeInto.Target>
-                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="82d3bf448ba9e2ce5b3df19a92986765" Selector="&lt;html app='chrome.exe' title='Automation Challenge' /&gt;&lt;webctrl aaname='First Name' tag='LABEL' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="82d3bf448ba9e2ce5b3df19a92986765" Selector="&lt;html app='chrome.exe' title='Automation Challenge' /&gt;&lt;webctrl aaname='First Name' tag='LABEL' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='INPUT' /&gt;" WaitForReady="NONE" />
                                               </ui:TypeInto.Target>
                                             </ui:TypeInto>
                                             <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Typing Last Name" EmptyField="True" sap:VirtualizedContainerService.HintSize="314.4,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_2" SendWindowMessages="False" SimulateType="True" Text="[row.Item(&quot;Last Name &quot;).ToString]">
                                               <ui:TypeInto.Target>
-                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="664ddf5e506b540e978c4d9ce84286f0" Selector="&lt;webctrl aaname='Last Name' tag='LABEL' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="664ddf5e506b540e978c4d9ce84286f0" Selector="&lt;webctrl aaname='Last Name' tag='LABEL' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='INPUT' /&gt;" WaitForReady="NONE" />
                                               </ui:TypeInto.Target>
                                             </ui:TypeInto>
                                             <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Typing Address" EmptyField="True" sap:VirtualizedContainerService.HintSize="314.4,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_3" SendWindowMessages="False" SimulateType="True" Text="[row.Item(&quot;Address&quot;).ToString]">
                                               <ui:TypeInto.Target>
-                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="792894b4699155aa1ed77fc898401525" Selector="&lt;html app='chrome.exe' title='Automation Challenge' /&gt;&lt;webctrl aaname='Address' tag='LABEL' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="792894b4699155aa1ed77fc898401525" Selector="&lt;html app='chrome.exe' title='Automation Challenge' /&gt;&lt;webctrl aaname='Address' tag='LABEL' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='INPUT' /&gt;" WaitForReady="NONE" />
                                               </ui:TypeInto.Target>
                                             </ui:TypeInto>
                                             <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Typing Company Name" EmptyField="True" sap:VirtualizedContainerService.HintSize="314.4,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_4" SendWindowMessages="False" SimulateType="True" Text="[row.Item(&quot;Company Name&quot;).ToString]">
                                               <ui:TypeInto.Target>
-                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="a8030abb99ee0f0260645290f4964f46" Selector="&lt;webctrl aaname='Company Name' tag='LABEL' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="a8030abb99ee0f0260645290f4964f46" Selector="&lt;webctrl aaname='Company Name' tag='LABEL' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='INPUT' /&gt;" WaitForReady="NONE" />
                                               </ui:TypeInto.Target>
                                             </ui:TypeInto>
                                             <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Typing Email" EmptyField="True" sap:VirtualizedContainerService.HintSize="314.4,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_5" SendWindowMessages="False" SimulateType="True" Text="[row.Item(&quot;Email&quot;).ToString]">
                                               <ui:TypeInto.Target>
-                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="484a686820be9598f1d3709299afbf6b" Selector="&lt;webctrl aaname='Email' tag='LABEL' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="484a686820be9598f1d3709299afbf6b" Selector="&lt;webctrl aaname='Email' tag='LABEL' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='INPUT' /&gt;" WaitForReady="NONE" />
                                               </ui:TypeInto.Target>
                                             </ui:TypeInto>
                                             <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Typing Role In Company" EmptyField="True" sap:VirtualizedContainerService.HintSize="314.4,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_6" SendWindowMessages="False" SimulateType="True" Text="[row.Item(&quot;Role in Company&quot;).ToString]">
                                               <ui:TypeInto.Target>
-                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="fd033600cc4d98c0e5df0f02f2ada723" Selector="&lt;html app='chrome.exe' title='Automation Challenge' /&gt;&lt;webctrl aaname='Role in Company' tag='LABEL' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="fd033600cc4d98c0e5df0f02f2ada723" Selector="&lt;html app='chrome.exe' title='Automation Challenge' /&gt;&lt;webctrl aaname='Role in Company' tag='LABEL' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='INPUT' /&gt;" WaitForReady="NONE" />
                                               </ui:TypeInto.Target>
                                             </ui:TypeInto>
                                             <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Typing Phone Number" EmptyField="True" sap:VirtualizedContainerService.HintSize="314.4,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_7" SendWindowMessages="False" SimulateType="True" Text="[row.Item(&quot;Phone Number&quot;).ToString]">
                                               <ui:TypeInto.Target>
-                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="9d0e2e03dd038a82bda11a474c29e523" Selector="&lt;html app='chrome.exe' title='Automation Challenge' /&gt;&lt;webctrl aaname='Phone Number' tag='LABEL' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="9d0e2e03dd038a82bda11a474c29e523" Selector="&lt;html app='chrome.exe' title='Automation Challenge' /&gt;&lt;webctrl aaname='Phone Number' tag='LABEL' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='INPUT' /&gt;" WaitForReady="NONE" />
                                               </ui:TypeInto.Target>
                                             </ui:TypeInto>
                                             <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Clicking Submit" sap:VirtualizedContainerService.HintSize="314.4,107.2" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
